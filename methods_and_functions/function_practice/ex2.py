@@ -6,8 +6,8 @@ A function that takes a two-word string and returns True if both words begin wit
 '''
 
 def animal_crackers(text:str) -> bool:
-  split_text = text.split(' ')
-  
+  split_text = text.split(' ') #splits words into an array
+
   return split_text[0][0] != split_text[1][0]
 
 
